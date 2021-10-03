@@ -31,4 +31,5 @@ router.get('/contact', function(req, res, next) {
   res.render('../pages/contact', { title: 'Contact'});
 });
 
+
 module.exports = router;
