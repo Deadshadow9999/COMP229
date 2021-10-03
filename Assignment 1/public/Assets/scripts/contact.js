@@ -4,6 +4,7 @@
    Date: Oct 2, 2021
 */
 
+// Function for validating the form's input fields
 function checkValidity(evt)
 {
    // Get the values from the form inputs
@@ -40,6 +41,7 @@ function checkValidity(evt)
       alert("Submission Complete. Thanks for contacting us");
       return true;
    }
+   // Catches the error and displays the appropriate message
    catch(formError){
       alert(formError.message);
       evt.preventDefault();
